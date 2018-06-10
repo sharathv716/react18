@@ -30,5 +30,7 @@ func lcs(str1, str2 string) int{
 func main(){
   fmt.Println(lcs("AGGTAB","GXTXAYB"))
   fmt.Println("Number of calls ", count)
+  fmt.Println("Adding Hot Fixes")
   fmt.Println(mystring)
+  fmt.Println("Adding Hot Fixes")
 }
