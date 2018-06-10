@@ -28,6 +28,7 @@ func lcs(str1, str2 string) int{
 }
 
 func main(){
+  fmt.Println("Testing on testing branch")
   fmt.Println(lcs("AGGTAB","GXTXAYB"))
   fmt.Println("This is master branch new commit")
   fmt.Println("Number of calls ", count)
