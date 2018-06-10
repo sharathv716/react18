@@ -27,8 +27,13 @@ func lcs(str1, str2 string) int{
   }
 }
 
+func anotherMethodOnTesting(){
+  fmt.Println("Another Testing Branch 1")
+}
+
 func main(){
   fmt.Println(lcs("AGGTAB","GXTXAYB"))
   fmt.Println("Number of calls ", count)
   fmt.Println(mystring)
+  anotherMethodOnTesting()
 }
