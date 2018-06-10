@@ -15,8 +15,8 @@ func max(s1, s2 int) int{
 
 func lcs(str1, str2 string) int{
   count++
-  fmt.Println("new change")
-  fmt.Println("new change")
+  fmt.Println("new change1")
+  fmt.Println("new change2")
   if i > len(str1) - 1  || j > len(str2) - 1{
     return 0
   }
