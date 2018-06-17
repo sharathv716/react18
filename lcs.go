@@ -26,6 +26,7 @@ func lcs(str1, str2 string) int{
     return max(lcs(str1[i+1:], str2[j:]), lcs(str1[i:], str2[j+1:]))
   }
 }
+// Adding a line for reverting to this commit again
 
 func anotherMethodOnTesting(){
   fmt.Println("Another Testing Branch 1")
@@ -34,5 +35,6 @@ func anotherMethodOnTesting(){
 func main(){
   fmt.Println(lcs("AGGTAB","GXTXAYB"))
   fmt.Println("Number of calls ", count)
+  fmt.Println(mystring)
   anotherMethodOnTesting()
 }
